@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4D8E9732445E9BC0099214F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9722445E9BC0099214F /* AppDelegate.swift */; };
+		A4D8E9752445E9BC0099214F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9742445E9BC0099214F /* SceneDelegate.swift */; };
+		A4D8E9772445E9BC0099214F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9762445E9BC0099214F /* ViewController.swift */; };
+		A4D8E97A2445E9BC0099214F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E9782445E9BC0099214F /* Main.storyboard */; };
+		A4D8E97D2445E9BC0099214F /* SportsFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E97B2445E9BC0099214F /* SportsFinder.xcdatamodeld */; };
+		A4D8E97F2445E9C00099214F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E97E2445E9C00099214F /* Assets.xcassets */; };
+		A4D8E9822445E9C00099214F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E9802445E9C00099214F /* LaunchScreen.storyboard */; };
+		A4D8E98D2445E9C00099214F /* SportsFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E98C2445E9C00099214F /* SportsFinderTests.swift */; };
+		A4D8E9982445E9C00099214F /* SportsFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9972445E9C00099214F /* SportsFinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4D8E9892445E9C00099214F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D8E9672445E9BC0099214F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D8E96E2445E9BC0099214F;
+			remoteInfo = SportsFinder;
+		};
+		A4D8E9942445E9C00099214F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D8E9672445E9BC0099214F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D8E96E2445E9BC0099214F;
+			remoteInfo = SportsFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4D8E96F2445E9BC0099214F /* SportsFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D8E9722445E9BC0099214F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4D8E9742445E9BC0099214F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A4D8E9762445E9BC0099214F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4D8E9792445E9BC0099214F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4D8E97C2445E9BC0099214F /* SportsFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportsFinder.xcdatamodel; sourceTree = "<group>"; };
+		A4D8E97E2445E9C00099214F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4D8E9812445E9C00099214F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4D8E9832445E9C00099214F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D8E9882445E9C00099214F /* SportsFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D8E98C2445E9C00099214F /* SportsFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsFinderTests.swift; sourceTree = "<group>"; };
+		A4D8E98E2445E9C00099214F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D8E9932445E9C00099214F /* SportsFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D8E9972445E9C00099214F /* SportsFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsFinderUITests.swift; sourceTree = "<group>"; };
+		A4D8E9992445E9C00099214F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4D8E96C2445E9BC0099214F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D8E9852445E9C00099214F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D8E9902445E9C00099214F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4D8E9662445E9BC0099214F = {
+			isa = PBXGroup;
+			children = (
+				A4D8E9712445E9BC0099214F /* SportsFinder */,
+				A4D8E98B2445E9C00099214F /* SportsFinderTests */,
+				A4D8E9962445E9C00099214F /* SportsFinderUITests */,
+				A4D8E9702445E9BC0099214F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4D8E9702445E9BC0099214F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E96F2445E9BC0099214F /* SportsFinder.app */,
+				A4D8E9882445E9C00099214F /* SportsFinderTests.xctest */,
+				A4D8E9932445E9C00099214F /* SportsFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4D8E9712445E9BC0099214F /* SportsFinder */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E9722445E9BC0099214F /* AppDelegate.swift */,
+				A4D8E9742445E9BC0099214F /* SceneDelegate.swift */,
+				A4D8E9762445E9BC0099214F /* ViewController.swift */,
+				A4D8E9782445E9BC0099214F /* Main.storyboard */,
+				A4D8E97E2445E9C00099214F /* Assets.xcassets */,
+				A4D8E9802445E9C00099214F /* LaunchScreen.storyboard */,
+				A4D8E9832445E9C00099214F /* Info.plist */,
+				A4D8E97B2445E9BC0099214F /* SportsFinder.xcdatamodeld */,
+			);
+			path = SportsFinder;
+			sourceTree = "<group>";
+		};
+		A4D8E98B2445E9C00099214F /* SportsFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E98C2445E9C00099214F /* SportsFinderTests.swift */,
+				A4D8E98E2445E9C00099214F /* Info.plist */,
+			);
+			path = SportsFinderTests;
+			sourceTree = "<group>";
+		};
+		A4D8E9962445E9C00099214F /* SportsFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E9972445E9C00099214F /* SportsFinderUITests.swift */,
+				A4D8E9992445E9C00099214F /* Info.plist */,
+			);
+			path = SportsFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4D8E96E2445E9BC0099214F /* SportsFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D8E99C2445E9C00099214F /* Build configuration list for PBXNativeTarget "SportsFinder" */;
+			buildPhases = (
+				A4D8E96B2445E9BC0099214F /* Sources */,
+				A4D8E96C2445E9BC0099214F /* Frameworks */,
+				A4D8E96D2445E9BC0099214F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportsFinder;
+			productName = SportsFinder;
+			productReference = A4D8E96F2445E9BC0099214F /* SportsFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4D8E9872445E9C00099214F /* SportsFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D8E99F2445E9C00099214F /* Build configuration list for PBXNativeTarget "SportsFinderTests" */;
+			buildPhases = (
+				A4D8E9842445E9C00099214F /* Sources */,
+				A4D8E9852445E9C00099214F /* Frameworks */,
+				A4D8E9862445E9C00099214F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4D8E98A2445E9C00099214F /* PBXTargetDependency */,
+			);
+			name = SportsFinderTests;
+			productName = SportsFinderTests;
+			productReference = A4D8E9882445E9C00099214F /* SportsFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4D8E9922445E9C00099214F /* SportsFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D8E9A22445E9C00099214F /* Build configuration list for PBXNativeTarget "SportsFinderUITests" */;
+			buildPhases = (
+				A4D8E98F2445E9C00099214F /* Sources */,
+				A4D8E9902445E9C00099214F /* Frameworks */,
+				A4D8E9912445E9C00099214F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4D8E9952445E9C00099214F /* PBXTargetDependency */,
+			);
+			name = SportsFinderUITests;
+			productName = SportsFinderUITests;
+			productReference = A4D8E9932445E9C00099214F /* SportsFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4D8E9672445E9BC0099214F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Liiban Mukhtar";
+				TargetAttributes = {
+					A4D8E96E2445E9BC0099214F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A4D8E9872445E9C00099214F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A4D8E96E2445E9BC0099214F;
+					};
+					A4D8E9922445E9C00099214F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A4D8E96E2445E9BC0099214F;
+					};
+				};
+			};
+			buildConfigurationList = A4D8E96A2445E9BC0099214F /* Build configuration list for PBXProject "SportsFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4D8E9662445E9BC0099214F;
+			productRefGroup = A4D8E9702445E9BC0099214F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4D8E96E2445E9BC0099214F /* SportsFinder */,
+				A4D8E9872445E9C00099214F /* SportsFinderTests */,
+				A4D8E9922445E9C00099214F /* SportsFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4D8E96D2445E9BC0099214F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D8E9822445E9C00099214F /* LaunchScreen.storyboard in Resources */,
+				A4D8E97F2445E9C00099214F /* Assets.xcassets in Resources */,
+				A4D8E97A2445E9BC0099214F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D8E9862445E9C00099214F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D8E9912445E9C00099214F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4D8E96B2445E9BC0099214F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D8E97D2445E9BC0099214F /* SportsFinder.xcdatamodeld in Sources */,
+				A4D8E9772445E9BC0099214F /* ViewController.swift in Sources */,
+				A4D8E9732445E9BC0099214F /* AppDelegate.swift in Sources */,
+				A4D8E9752445E9BC0099214F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D8E9842445E9C00099214F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D8E98D2445E9C00099214F /* SportsFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D8E98F2445E9C00099214F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D8E9982445E9C00099214F /* SportsFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4D8E98A2445E9C00099214F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4D8E96E2445E9BC0099214F /* SportsFinder */;
+			targetProxy = A4D8E9892445E9C00099214F /* PBXContainerItemProxy */;
+		};
+		A4D8E9952445E9C00099214F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4D8E96E2445E9BC0099214F /* SportsFinder */;
+			targetProxy = A4D8E9942445E9C00099214F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4D8E9782445E9BC0099214F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D8E9792445E9BC0099214F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4D8E9802445E9C00099214F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D8E9812445E9C00099214F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4D8E99A2445E9C00099214F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4D8E99B2445E9C00099214F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4D8E99D2445E9C00099214F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportsFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liibanmukhtar.SportsFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4D8E99E2445E9C00099214F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportsFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liibanmukhtar.SportsFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4D8E9A02445E9C00099214F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportsFinderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liibanmukhtar.SportsFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsFinder.app/SportsFinder";
+			};
+			name = Debug;
+		};
+		A4D8E9A12445E9C00099214F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportsFinderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liibanmukhtar.SportsFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsFinder.app/SportsFinder";
+			};
+			name = Release;
+		};
+		A4D8E9A32445E9C00099214F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportsFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liibanmukhtar.SportsFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportsFinder;
+			};
+			name = Debug;
+		};
+		A4D8E9A42445E9C00099214F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportsFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liibanmukhtar.SportsFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportsFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4D8E96A2445E9BC0099214F /* Build configuration list for PBXProject "SportsFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D8E99A2445E9C00099214F /* Debug */,
+				A4D8E99B2445E9C00099214F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D8E99C2445E9C00099214F /* Build configuration list for PBXNativeTarget "SportsFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D8E99D2445E9C00099214F /* Debug */,
+				A4D8E99E2445E9C00099214F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D8E99F2445E9C00099214F /* Build configuration list for PBXNativeTarget "SportsFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D8E9A02445E9C00099214F /* Debug */,
+				A4D8E9A12445E9C00099214F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D8E9A22445E9C00099214F /* Build configuration list for PBXNativeTarget "SportsFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D8E9A32445E9C00099214F /* Debug */,
+				A4D8E9A42445E9C00099214F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4D8E97B2445E9BC0099214F /* SportsFinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4D8E97C2445E9BC0099214F /* SportsFinder.xcdatamodel */,
+			);
+			currentVersion = A4D8E97C2445E9BC0099214F /* SportsFinder.xcdatamodel */;
+			path = SportsFinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4D8E9672445E9BC0099214F /* Project object */;
+}
