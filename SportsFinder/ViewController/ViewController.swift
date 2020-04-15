@@ -6,27 +6,49 @@
 //  Copyright © 2020 Liiban Mukhtar. All rights reserved.
 //
 
+// Collapse: comman + option + shift + <-
+// Indent code: control + i
+
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var signUpButton: UIButton!
-    
-    @IBOutlet weak var signInButton: UIButton!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        signInButton.layer.cornerRadius = 40;
-        signInButton.clipsToBounds = true;
-
-        signUpButton.layer.cornerRadius = 40;
-        signUpButton.clipsToBounds = true;
-        // Do any additional setup after loading the view.
-    }
-
-
-    @IBAction func signInButtonPressed(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "goToLogin", sender: self)
-    }
-    
+	
+	// MARK: - Views
+	
+	@IBOutlet weak var cardView: UIView! {
+		didSet {
+			cardView.layer.cornerRadius = 22.0
+		}
+	}
+	@IBOutlet weak var signUpButton: UIButton! {
+		didSet {
+			signUpButton.backgroundColor = UIColor.blue
+			signUpButton.layer.cornerRadius = 40
+			signUpButton.clipsToBounds = true
+		}
+	}
+	@IBOutlet weak var signInButton: UIButton! {
+		didSet {
+			signInButton.backgroundColor = UIColor.yellow
+			signInButton.layer.cornerRadius = 40
+			signInButton.clipsToBounds = true
+		}
+	}
+	
+	// MARK: - Properties
+	
+	// MARK: - Lifecycle
+	
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		
+		// Do main stuff
+	}
+	
+	// MARK: - Actions
+	
+	@IBAction func signInButtonPressed(_ sender: UIButton) {
+		self.performSegue(withIdentifier: "goToLogin", sender: self)
+	}
+	
 }
-
