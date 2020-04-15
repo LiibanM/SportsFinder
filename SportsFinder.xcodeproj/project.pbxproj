@@ -16,6 +16,7 @@
 		A4D8E9822445E9C00099214F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E9802445E9C00099214F /* LaunchScreen.storyboard */; };
 		A4D8E98D2445E9C00099214F /* SportsFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E98C2445E9C00099214F /* SportsFinderTests.swift */; };
 		A4D8E9982445E9C00099214F /* SportsFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9972445E9C00099214F /* SportsFinderUITests.swift */; };
+		A4D8E9A824473B990099214F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9A724473B990099214F /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A4D8E9932445E9C00099214F /* SportsFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D8E9972445E9C00099214F /* SportsFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsFinderUITests.swift; sourceTree = "<group>"; };
 		A4D8E9992445E9C00099214F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D8E9A724473B990099214F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				A4D8E9802445E9C00099214F /* LaunchScreen.storyboard */,
 				A4D8E9832445E9C00099214F /* Info.plist */,
 				A4D8E97B2445E9BC0099214F /* SportsFinder.xcdatamodeld */,
+				A4D8E9A724473B990099214F /* LoginViewController.swift */,
 			);
 			path = SportsFinder;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				A4D8E97D2445E9BC0099214F /* SportsFinder.xcdatamodeld in Sources */,
 				A4D8E9772445E9BC0099214F /* ViewController.swift in Sources */,
 				A4D8E9732445E9BC0099214F /* AppDelegate.swift in Sources */,
+				A4D8E9A824473B990099214F /* LoginViewController.swift in Sources */,
 				A4D8E9752445E9BC0099214F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
