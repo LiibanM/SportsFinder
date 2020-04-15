@@ -103,15 +103,14 @@
 		A4D8E9712445E9BC0099214F /* SportsFinder */ = {
 			isa = PBXGroup;
 			children = (
-				A4D8E9722445E9BC0099214F /* AppDelegate.swift */,
+				A5FF210A24474BF5003A2E49 /* ViewController */,
 				A4D8E9742445E9BC0099214F /* SceneDelegate.swift */,
-				A4D8E9762445E9BC0099214F /* ViewController.swift */,
+				A4D8E9722445E9BC0099214F /* AppDelegate.swift */,
 				A4D8E9782445E9BC0099214F /* Main.storyboard */,
 				A4D8E97E2445E9C00099214F /* Assets.xcassets */,
 				A4D8E9802445E9C00099214F /* LaunchScreen.storyboard */,
 				A4D8E9832445E9C00099214F /* Info.plist */,
 				A4D8E97B2445E9BC0099214F /* SportsFinder.xcdatamodeld */,
-				A4D8E9A724473B990099214F /* LoginViewController.swift */,
 			);
 			path = SportsFinder;
 			sourceTree = "<group>";
@@ -132,6 +131,15 @@
 				A4D8E9992445E9C00099214F /* Info.plist */,
 			);
 			path = SportsFinderUITests;
+			sourceTree = "<group>";
+		};
+		A5FF210A24474BF5003A2E49 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E9A724473B990099214F /* LoginViewController.swift */,
+				A4D8E9762445E9BC0099214F /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
