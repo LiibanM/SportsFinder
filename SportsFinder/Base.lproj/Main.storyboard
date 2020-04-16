@@ -141,18 +141,26 @@
                                     <action selector="loginButtonAction:" destination="55H-ZZ-sYD" eventType="touchUpInside" id="3yo-ji-Alp"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Incorrect User or Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bff-QU-xLx">
+                                <rect key="frame" x="94" y="299" width="208" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="GsC-4E-fzL"/>
                     </view>
                     <connections>
+                        <outlet property="incorrectLoginMessage" destination="bff-QU-xLx" id="viV-9O-Pkr"/>
                         <outlet property="passwordTextField" destination="E0n-Ga-Zul" id="eLO-Gl-Fae"/>
                         <outlet property="usernameTextField" destination="phs-3d-3Zl" id="FdO-3s-Df3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8XL-fi-Mgg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1199" y="-80"/>
+            <point key="canvasLocation" x="1198.5507246376812" y="-80.357142857142847"/>
         </scene>
     </scenes>
 </document>
