@@ -17,6 +17,7 @@
 		A4D8E98D2445E9C00099214F /* SportsFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E98C2445E9C00099214F /* SportsFinderTests.swift */; };
 		A4D8E9982445E9C00099214F /* SportsFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9972445E9C00099214F /* SportsFinderUITests.swift */; };
 		A4D8E9A824473B990099214F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9A724473B990099214F /* LoginViewController.swift */; };
+		A5CF88CA2449E92300B83C29 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF88C92449E92300B83C29 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A4D8E9972445E9C00099214F /* SportsFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsFinderUITests.swift; sourceTree = "<group>"; };
 		A4D8E9992445E9C00099214F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4D8E9A724473B990099214F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A5CF88C92449E92300B83C29 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,9 +135,18 @@
 			path = SportsFinderUITests;
 			sourceTree = "<group>";
 		};
+		A5CF88CB2449E92600B83C29 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				A5CF88C92449E92300B83C29 /* SignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 		A5FF210A24474BF5003A2E49 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				A5CF88CB2449E92600B83C29 /* SignUp */,
 				A4D8E9A724473B990099214F /* LoginViewController.swift */,
 				A4D8E9762445E9BC0099214F /* ViewController.swift */,
 			);
@@ -273,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5CF88CA2449E92300B83C29 /* SignUpViewController.swift in Sources */,
 				A4D8E97D2445E9BC0099214F /* SportsFinder.xcdatamodeld in Sources */,
 				A4D8E9772445E9BC0099214F /* ViewController.swift in Sources */,
 				A4D8E9732445E9BC0099214F /* AppDelegate.swift in Sources */,
