@@ -29,11 +29,17 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="registerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7oX-Jb-hki"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1n-VZ-9Lj">
                                         <rect key="frame" x="168" y="209.5" width="38" height="27"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="signInButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0ba-20-ldK"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -54,9 +60,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="registerButton" destination="RVd-Cw-PPB" id="c8j-AE-FV2"/>
-                        <outlet property="signInButton" destination="c1n-VZ-9Lj" id="OIp-Q3-ejc"/>
+                        <outlet property="registerButton" destination="RVd-Cw-PPB" id="rW3-ij-LeY"/>
+                        <outlet property="signInButton" destination="c1n-VZ-9Lj" id="p2D-Bu-CQA"/>
                         <segue destination="55H-ZZ-sYD" kind="presentation" identifier="goToLogin" modalPresentationStyle="overFullScreen" id="y5Q-Ig-Jc1"/>
+                        <segue destination="k5Q-po-kA9" kind="show" identifier="goToRegister" id="3OO-qD-xoo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -168,6 +175,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8XL-fi-Mgg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1198.5507246376812" y="-80.357142857142847"/>
+        </scene>
+        <!--Register View Controller-->
+        <scene sceneID="cmc-fD-n9X">
+            <objects>
+                <viewController id="k5Q-po-kA9" customClass="RegisterViewController" customModule="SportsFinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JbK-Z5-QPV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="pBE-Z6-bR2"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FVS-QT-bym"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CCj-XE-20F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="435" y="708"/>
         </scene>
     </scenes>
     <resources>
