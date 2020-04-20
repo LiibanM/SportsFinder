@@ -31,7 +31,7 @@ class IntroViewController: UIViewController {
 
     @IBOutlet weak var signInButton: UIButton!{
         didSet{
-            signInButton.setTitle("Register", for: .normal)
+            signInButton.setTitle("Already memer? Sing in", for: .normal)
 
             signInButton.setTitleColor(.white, for: .normal)
 
