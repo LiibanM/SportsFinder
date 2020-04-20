@@ -64,6 +64,12 @@ class LoginViewController: UIViewController {
     }
     
     
+    @IBOutlet weak var resetPasswordButton: UIButton!{
+        
+        didSet{
+            resetPasswordButton.setTitle("Forgot your password?", for: .normal)
+        }
+    }
     
     // MARK: - Properties
     

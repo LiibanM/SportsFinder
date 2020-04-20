@@ -93,7 +93,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="54" translatesAutoresizingMaskIntoConstraints="NO" id="EZV-YP-bz2">
-                                <rect key="frame" x="57" y="294" width="300" height="314"/>
+                                <rect key="frame" x="57" y="294" width="300" height="568"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="znD-OL-cjJ">
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="40"/>
@@ -121,6 +121,7 @@
                                                     <constraint firstAttribute="height" constant="40" id="PW1-bw-grf"/>
                                                     <constraint firstAttribute="width" constant="300" id="sDS-BE-1nG"/>
                                                 </constraints>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -130,13 +131,14 @@
                                                     <constraint firstAttribute="width" constant="300" id="3o7-5e-VnX"/>
                                                     <constraint firstAttribute="height" constant="40" id="brq-0C-5hP"/>
                                                 </constraints>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="8VT-0j-lHA">
-                                        <rect key="frame" x="0.0" y="236" width="300" height="78"/>
+                                        <rect key="frame" x="0.0" y="236" width="300" height="332"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uX-fD-spG">
                                                 <rect key="frame" x="0.0" y="0.0" width="300" height="40"/>
@@ -150,7 +152,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7j3-x1-ITn">
-                                                <rect key="frame" x="0.0" y="48" width="300" height="30"/>
+                                                <rect key="frame" x="0.0" y="48" width="300" height="284"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="300" id="Lot-0Z-j91"/>
                                                     <constraint firstAttribute="height" constant="40" id="sdk-SZ-XXi"/>
@@ -176,6 +178,7 @@
                         <outlet property="incorrectLoginMessage" destination="bff-QU-xLx" id="viV-9O-Pkr"/>
                         <outlet property="loginButton" destination="3uX-fD-spG" id="aEM-BT-6BU"/>
                         <outlet property="passwordTextField" destination="E0n-Ga-Zul" id="eLO-Gl-Fae"/>
+                        <outlet property="resetPasswordButton" destination="7j3-x1-ITn" id="Owc-hq-riN"/>
                         <outlet property="usernameTextField" destination="phs-3d-3Zl" id="FdO-3s-Df3"/>
                     </connections>
                 </viewController>
