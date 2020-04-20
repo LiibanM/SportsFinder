@@ -19,7 +19,12 @@ class LoginViewController: UIViewController {
         }
     }
     
-    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var usernameTextField: UITextField!{
+        didSet{
+            
+           
+        }
+    }
     @IBOutlet weak var passwordTextField: UITextField!
     
     
