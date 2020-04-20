@@ -26,6 +26,9 @@ class LoginViewController: UIViewController {
             usernameTextField.clipsToBounds = true
             usernameTextField.layer.borderWidth = 2.0
             usernameTextField.layer.borderColor = UIColor(red: 8.0/255, green: 98/255, blue: 65/255, alpha: 1.0).cgColor
+           usernameTextField.attributedPlaceholder =
+            NSAttributedString(string: "Username", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
+
             
 //            usernameTextField.setTitle("Register", for: .normal)
 //            usernameTextField.setTitleColor(.white, for: .normal)
@@ -39,6 +42,23 @@ class LoginViewController: UIViewController {
             passwordTextField.clipsToBounds = true
             passwordTextField.layer.borderWidth = 2.0
             passwordTextField.layer.borderColor = UIColor(red: 8.0/255, green: 98/255, blue: 65/255, alpha: 1.0).cgColor
+            passwordTextField.attributedPlaceholder =
+                       NSAttributedString(string: "Password", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
+            
+        }
+    }
+    
+    
+    @IBOutlet weak var loginButton: UIButton!{
+        
+        didSet{
+            loginButton.backgroundColor = UIColor.clear
+             loginButton.layer.cornerRadius = loginButton.frame.height / 2
+            loginButton.clipsToBounds = true
+            loginButton.layer.borderWidth = 2.0
+            loginButton.layer.borderColor = UIColor(red: 8.0/255, green: 98/255, blue: 65/255, alpha: 1.0).cgColor
+            loginButton.setTitle("Login", for: .normal)
+            loginButton.setTitleColor(.white, for: .normal)
             
         }
     }
