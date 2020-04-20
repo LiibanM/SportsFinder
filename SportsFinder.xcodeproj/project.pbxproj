@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A4D8E9732445E9BC0099214F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9722445E9BC0099214F /* AppDelegate.swift */; };
 		A4D8E9752445E9BC0099214F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9742445E9BC0099214F /* SceneDelegate.swift */; };
-		A4D8E9772445E9BC0099214F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9762445E9BC0099214F /* ViewController.swift */; };
+		A4D8E9772445E9BC0099214F /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9762445E9BC0099214F /* IntroViewController.swift */; };
 		A4D8E97A2445E9BC0099214F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E9782445E9BC0099214F /* Main.storyboard */; };
 		A4D8E97D2445E9BC0099214F /* SportsFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E97B2445E9BC0099214F /* SportsFinder.xcdatamodeld */; };
 		A4D8E97F2445E9C00099214F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D8E97E2445E9C00099214F /* Assets.xcassets */; };
@@ -17,7 +17,7 @@
 		A4D8E98D2445E9C00099214F /* SportsFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E98C2445E9C00099214F /* SportsFinderTests.swift */; };
 		A4D8E9982445E9C00099214F /* SportsFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9972445E9C00099214F /* SportsFinderUITests.swift */; };
 		A4D8E9A824473B990099214F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9A724473B990099214F /* LoginViewController.swift */; };
-		A5CF88CA2449E92300B83C29 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF88C92449E92300B83C29 /* SignUpViewController.swift */; };
+		A4D8E9AA244DA7030099214F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9A9244DA7030099214F /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		A4D8E96F2445E9BC0099214F /* SportsFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D8E9722445E9BC0099214F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4D8E9742445E9BC0099214F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4D8E9762445E9BC0099214F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4D8E9762445E9BC0099214F /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		A4D8E9792445E9BC0099214F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4D8E97C2445E9BC0099214F /* SportsFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportsFinder.xcdatamodel; sourceTree = "<group>"; };
 		A4D8E97E2445E9C00099214F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		A4D8E9972445E9C00099214F /* SportsFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsFinderUITests.swift; sourceTree = "<group>"; };
 		A4D8E9992445E9C00099214F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4D8E9A724473B990099214F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		A5CF88C92449E92300B83C29 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A4D8E9A9244DA7030099214F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +138,7 @@
 		A5CF88CB2449E92600B83C29 /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
-				A5CF88C92449E92300B83C29 /* SignUpViewController.swift */,
+				A4D8E9A9244DA7030099214F /* RegisterViewController.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			children = (
 				A5CF88CB2449E92600B83C29 /* SignUp */,
 				A4D8E9A724473B990099214F /* LoginViewController.swift */,
-				A4D8E9762445E9BC0099214F /* ViewController.swift */,
+				A4D8E9762445E9BC0099214F /* IntroViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -284,9 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CF88CA2449E92300B83C29 /* SignUpViewController.swift in Sources */,
 				A4D8E97D2445E9BC0099214F /* SportsFinder.xcdatamodeld in Sources */,
-				A4D8E9772445E9BC0099214F /* ViewController.swift in Sources */,
+				A4D8E9AA244DA7030099214F /* RegisterViewController.swift in Sources */,
+				A4D8E9772445E9BC0099214F /* IntroViewController.swift in Sources */,
 				A4D8E9732445E9BC0099214F /* AppDelegate.swift in Sources */,
 				A4D8E9A824473B990099214F /* LoginViewController.swift in Sources */,
 				A4D8E9752445E9BC0099214F /* SceneDelegate.swift in Sources */,
