@@ -10,6 +10,24 @@ import UIKit
 
 class RegisterViewController: UIViewController {
 
+    @IBOutlet weak var textfieldone: UITextField!{
+    
+        didSet{
+//            textfieldone.layer.backgroundColor = UIColor.whiteColor().CGColor
+//            textfieldone.layer.borderColor = UIColor.grayColor().CGColor
+//            textfieldone.layer.borderWidth = 0.0
+//            textfieldone.layer.cornerRadius = 5
+//            textfieldone.layer.masksToBounds = false
+//            textfieldone.layer.shadowRadius = 2.0
+//            textfieldone.layer.shadowColor = UIColor.blackColor().CGColor
+//            textfieldone.layer.shadowOffset = CGPoint(_;1.0,1.0)
+//            textfieldone.layer.shadowOpacity = 1.0
+//            textfieldone.layer.shadowRadius = 1.0
+        }
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
