@@ -19,8 +19,29 @@ class LoginViewController: UIViewController {
         }
     }
     
-    @IBOutlet weak var usernameTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var usernameTextField: UITextField!{
+        didSet{
+            usernameTextField.backgroundColor = UIColor.clear
+             usernameTextField.layer.cornerRadius = usernameTextField.frame.height / 2
+            usernameTextField.clipsToBounds = true
+            usernameTextField.layer.borderWidth = 2.0
+            usernameTextField.layer.borderColor = UIColor(red: 8.0/255, green: 98/255, blue: 65/255, alpha: 1.0).cgColor
+            
+//            usernameTextField.setTitle("Register", for: .normal)
+//            usernameTextField.setTitleColor(.white, for: .normal)
+           
+        }
+    }
+    @IBOutlet weak var passwordTextField: UITextField!{
+        didSet{
+            passwordTextField.backgroundColor = UIColor.clear
+             passwordTextField.layer.cornerRadius = passwordTextField.frame.height / 2
+            passwordTextField.clipsToBounds = true
+            passwordTextField.layer.borderWidth = 2.0
+            passwordTextField.layer.borderColor = UIColor(red: 8.0/255, green: 98/255, blue: 65/255, alpha: 1.0).cgColor
+            
+        }
+    }
     
     
     
