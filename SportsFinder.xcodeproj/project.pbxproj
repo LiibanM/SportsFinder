@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A44151532455C580004ED0AF /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44151522455C580004ED0AF /* BrowseViewController.swift */; };
 		A4D8E9732445E9BC0099214F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9722445E9BC0099214F /* AppDelegate.swift */; };
 		A4D8E9752445E9BC0099214F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9742445E9BC0099214F /* SceneDelegate.swift */; };
 		A4D8E9772445E9BC0099214F /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9762445E9BC0099214F /* IntroViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A44151522455C580004ED0AF /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
 		A4D8E96F2445E9BC0099214F /* SportsFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D8E9722445E9BC0099214F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4D8E9742445E9BC0099214F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				A5CF88CB2449E92600B83C29 /* SignUp */,
 				A4D8E9A724473B990099214F /* LoginViewController.swift */,
 				A4D8E9762445E9BC0099214F /* IntroViewController.swift */,
+				A44151522455C580004ED0AF /* BrowseViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				A4D8E9732445E9BC0099214F /* AppDelegate.swift in Sources */,
 				A4D8E9A824473B990099214F /* LoginViewController.swift in Sources */,
 				A4D8E9752445E9BC0099214F /* SceneDelegate.swift in Sources */,
+				A44151532455C580004ED0AF /* BrowseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
