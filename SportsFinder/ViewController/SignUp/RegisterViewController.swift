@@ -10,9 +10,9 @@ import UIKit
 
 class RegisterViewController: UIViewController {
 
-    
+    // MARK: - Views
+	
     @IBOutlet weak var registrationTitle: UILabel!
-    
     
     @IBOutlet weak var emailAddressField: UITextField!{
         didSet{
@@ -51,8 +51,7 @@ class RegisterViewController: UIViewController {
                 NSAttributedString(string: "Date of Birth", attributes: [NSAttributedString.Key.foregroundColor : UIColor.gray])
         }
     }
-    
-    
+        
     @IBOutlet weak var completeButton: UIButton!{
         didSet{
           completeButton.backgroundColor = UIColor.clear
@@ -64,9 +63,12 @@ class RegisterViewController: UIViewController {
              completeButton.setTitleColor(.white, for: .normal)
         }
     }
+	
+	// MARK: - Properties
+	
     let datepicker = UIDatePicker()
     
-    
+    // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -75,7 +77,7 @@ class RegisterViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    func createDatePick(){
+    func createDatePick() {
     //tool bar added to the datepicker for done button
     
         let toolbar = UIToolbar()
@@ -108,7 +110,36 @@ class RegisterViewController: UIViewController {
         
     }
     
-    /*
+	// MARK: - Actions
+	
+	@IBAction func actionCompleteButton(_ sender: UIButton) {
+		
+		// TODO: Maybe for later
+		// viewModel.registerNewUserIntoServer()
+		// Server reply true: registration completed
+		// If doesn't: ~> show an alert to the user to change something
+		// call the COORDINATOR for actionCompleteButton performed
+		
+		// 1 - Create reference for Home.storyboard file
+		let storyboard = UIStoryboard(name: "Home", bundle: nil)
+		
+		// 2 - Create reference for TabViewController from Home.storyboard file
+		guard let tabViewController = storyboard.instantiateViewController(withIdentifier: "TabViewController_id") as? UITabBarController else {
+			print("There is an error here to fetch the right viewcontroller")
+			return
+		}
+		
+		// 3 - Set the modal presentation as full screen
+		tabViewController.modalPresentationStyle = .overFullScreen
+		
+		// 4 - Push the tabViewController into the screen
+		self.present(tabViewController, animated: true) {
+			print("the tabbarcontroller is presented on the screen!")
+		}
+							
+	}
+	
+	/*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -119,3 +150,5 @@ class RegisterViewController: UIViewController {
     */
 
 }
+
+// TODO: Create ViewModel for this ViewController and create a new User

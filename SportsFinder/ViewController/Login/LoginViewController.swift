@@ -18,7 +18,6 @@ class LoginViewController: UIViewController {
             
         }
     }
-    
     @IBOutlet weak var usernameTextField: UITextField!{
         didSet{
             usernameTextField.backgroundColor = UIColor.clear
@@ -47,8 +46,6 @@ class LoginViewController: UIViewController {
             
         }
     }
-    
-    
     @IBOutlet weak var loginButton: UIButton!{
         
         didSet{
@@ -62,8 +59,6 @@ class LoginViewController: UIViewController {
             
         }
     }
-    
-    
     @IBOutlet weak var resetPasswordButton: UIButton!{
         
         didSet{
@@ -109,8 +104,7 @@ class LoginViewController: UIViewController {
         
     }
     
-    
-    @objc func updateUI(){
+    @objc func updateUI() {
         incorrectLoginMessage.isHidden = true // hide
         usernameTextField.text = nil
         passwordTextField.text = nil
@@ -122,11 +116,14 @@ class LoginViewController: UIViewController {
 
 class ViewModel {
     
+	// MARK: - Properties
+	
+	let tempUsername = "abc"
+    let tempPassword = "123"
+	
     // MARK: - Lifecycle
     
     init() {}
-    let tempUsername = "abc"
-    let tempPassword = "123"
     
     // MARK: - ublic Methods
     
@@ -137,5 +134,13 @@ class ViewModel {
         
         return false
     }
-    
+	
+	func verifyUser() -> Bool {
+		// take email & password
+		// send them to the server/check in coredata
+		// if yes then create a User and fill it from coredata or from the server
+		
+		return false
+	}
+	
 }

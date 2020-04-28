@@ -23,6 +23,8 @@
 		A4D8E9982445E9C00099214F /* SportsFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9972445E9C00099214F /* SportsFinderUITests.swift */; };
 		A4D8E9A824473B990099214F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9A724473B990099214F /* LoginViewController.swift */; };
 		A4D8E9AA244DA7030099214F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9A9244DA7030099214F /* RegisterViewController.swift */; };
+		A5D24A9B245836D5000F24BB /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D24A9A245836D4000F24BB /* Home.storyboard */; };
+		A5D24A9D245846F6000F24BB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D24A9C245846F6000F24BB /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		A4D8E9992445E9C00099214F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4D8E9A724473B990099214F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A4D8E9A9244DA7030099214F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A5D24A9A245836D4000F24BB /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		A5D24A9C245846F6000F24BB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +119,10 @@
 		A4D8E9712445E9BC0099214F /* SportsFinder */ = {
 			isa = PBXGroup;
 			children = (
+				A5D24A9E245846FC000F24BB /* Models */,
 				A5FF210A24474BF5003A2E49 /* ViewController */,
 				A4D8E9742445E9BC0099214F /* SceneDelegate.swift */,
 				A4D8E9722445E9BC0099214F /* AppDelegate.swift */,
-				A4D8E9782445E9BC0099214F /* Main.storyboard */,
 				A4D8E97E2445E9C00099214F /* Assets.xcassets */,
 				A4D8E9802445E9C00099214F /* LaunchScreen.storyboard */,
 				A4D8E9832445E9C00099214F /* Info.plist */,
@@ -153,12 +157,38 @@
 			path = SignUp;
 			sourceTree = "<group>";
 		};
+		A5D24A982458366A000F24BB /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E9762445E9BC0099214F /* IntroViewController.swift */,
+				A4D8E9782445E9BC0099214F /* Main.storyboard */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		A5D24A992458368B000F24BB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8E9A724473B990099214F /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A5D24A9E245846FC000F24BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5D24A9C245846F6000F24BB /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A5FF210A24474BF5003A2E49 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				A5D24A982458366A000F24BB /* Intro */,
 				A5CF88CB2449E92600B83C29 /* SignUp */,
-				A4D8E9A724473B990099214F /* LoginViewController.swift */,
-				A4D8E9762445E9BC0099214F /* IntroViewController.swift */,
+				A5D24A992458368B000F24BB /* Login */,
+				A5D24A9A245836D4000F24BB /* Home.storyboard */,
 				A44151522455C580004ED0AF /* BrowseViewController.swift */,
 				A44151542455FD23004ED0AF /* EditProfileViewController.swift */,
 				A44151562456E1FF004ED0AF /* AvailableSessionsViewController.swift */,
@@ -275,6 +305,7 @@
 				A4D8E9822445E9C00099214F /* LaunchScreen.storyboard in Resources */,
 				A4D8E97F2445E9C00099214F /* Assets.xcassets in Resources */,
 				A4D8E97A2445E9BC0099214F /* Main.storyboard in Resources */,
+				A5D24A9B245836D5000F24BB /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +338,7 @@
 				A4D8E9772445E9BC0099214F /* IntroViewController.swift in Sources */,
 				A4D8E9732445E9BC0099214F /* AppDelegate.swift in Sources */,
 				A4D8E9A824473B990099214F /* LoginViewController.swift in Sources */,
+				A5D24A9D245846F6000F24BB /* User.swift in Sources */,
 				A4D8E9752445E9BC0099214F /* SceneDelegate.swift in Sources */,
 				A44151532455C580004ED0AF /* BrowseViewController.swift in Sources */,
 				A441515924572959004ED0AF /* CreateSessionViewController.swift in Sources */,

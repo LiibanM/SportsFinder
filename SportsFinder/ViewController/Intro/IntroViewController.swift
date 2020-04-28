@@ -53,6 +53,8 @@ class IntroViewController: UIViewController {
 	
     @IBAction func registerButtonPressed(_ sender: UIButton) {
         self.performSegue(withIdentifier: "goToRegister", sender: self)
+		
+		// TODO: replace programatically way to show screen
     }
     
     @IBAction func signInButtonPressed(_ sender: Any) {
