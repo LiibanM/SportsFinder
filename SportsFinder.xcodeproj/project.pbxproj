@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A44151532455C580004ED0AF /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44151522455C580004ED0AF /* BrowseViewController.swift */; };
+		A44151552455FD23004ED0AF /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44151542455FD23004ED0AF /* EditProfileViewController.swift */; };
+		A44151572456E1FF004ED0AF /* AvailableSessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44151562456E1FF004ED0AF /* AvailableSessionsViewController.swift */; };
+		A441515924572959004ED0AF /* CreateSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A441515824572959004ED0AF /* CreateSessionViewController.swift */; };
+		A441515B245732A9004ED0AF /* ViewSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A441515A245732A9004ED0AF /* ViewSessionViewController.swift */; };
 		A4D8E9732445E9BC0099214F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9722445E9BC0099214F /* AppDelegate.swift */; };
 		A4D8E9752445E9BC0099214F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9742445E9BC0099214F /* SceneDelegate.swift */; };
 		A4D8E9772445E9BC0099214F /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8E9762445E9BC0099214F /* IntroViewController.swift */; };
@@ -40,6 +44,10 @@
 
 /* Begin PBXFileReference section */
 		A44151522455C580004ED0AF /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
+		A44151542455FD23004ED0AF /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		A44151562456E1FF004ED0AF /* AvailableSessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableSessionsViewController.swift; sourceTree = "<group>"; };
+		A441515824572959004ED0AF /* CreateSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSessionViewController.swift; sourceTree = "<group>"; };
+		A441515A245732A9004ED0AF /* ViewSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSessionViewController.swift; sourceTree = "<group>"; };
 		A4D8E96F2445E9BC0099214F /* SportsFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D8E9722445E9BC0099214F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4D8E9742445E9BC0099214F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +160,10 @@
 				A4D8E9A724473B990099214F /* LoginViewController.swift */,
 				A4D8E9762445E9BC0099214F /* IntroViewController.swift */,
 				A44151522455C580004ED0AF /* BrowseViewController.swift */,
+				A44151542455FD23004ED0AF /* EditProfileViewController.swift */,
+				A44151562456E1FF004ED0AF /* AvailableSessionsViewController.swift */,
+				A441515824572959004ED0AF /* CreateSessionViewController.swift */,
+				A441515A245732A9004ED0AF /* ViewSessionViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -287,13 +299,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A44151552455FD23004ED0AF /* EditProfileViewController.swift in Sources */,
+				A441515B245732A9004ED0AF /* ViewSessionViewController.swift in Sources */,
 				A4D8E97D2445E9BC0099214F /* SportsFinder.xcdatamodeld in Sources */,
 				A4D8E9AA244DA7030099214F /* RegisterViewController.swift in Sources */,
+				A44151572456E1FF004ED0AF /* AvailableSessionsViewController.swift in Sources */,
 				A4D8E9772445E9BC0099214F /* IntroViewController.swift in Sources */,
 				A4D8E9732445E9BC0099214F /* AppDelegate.swift in Sources */,
 				A4D8E9A824473B990099214F /* LoginViewController.swift in Sources */,
 				A4D8E9752445E9BC0099214F /* SceneDelegate.swift in Sources */,
 				A44151532455C580004ED0AF /* BrowseViewController.swift in Sources */,
+				A441515924572959004ED0AF /* CreateSessionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,7 +492,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.liibanmukhtar.SportsFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -494,7 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.liibanmukhtar.SportsFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
